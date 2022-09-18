@@ -16,7 +16,7 @@ export const UserDetailPage = () => {
   return (
     <div className="UserDetailPage">
       <h1>Users Details</h1>
-      <div className="cards_container">
+      <div className="card_container">
         {userDetail && (
           <div className="detail_card" key={userDetail.id}>
             <ul>

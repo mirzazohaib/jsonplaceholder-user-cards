@@ -13,7 +13,7 @@ export const HomePage = () => {
 
   return (
     <div className="HomePage">
-      <h1>Users Contact Info</h1>
+      <h1>Users Contact Information:</h1>
       <div className="cards_container">
         {users ? (
           users.map((user) => (
