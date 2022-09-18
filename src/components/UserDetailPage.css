@@ -1,0 +1,35 @@
+.UserDetailPage {
+ background-color: #f1f1f1;
+ padding: 30px;
+ text-align: center;
+ font-size: 35px;
+}
+
+.detail_card {
+ background-color: white;
+ padding: 10px;
+ box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+ margin: auto;
+  }
+
+  .detail_card > ul  {
+  font-size: 18px;
+  font-weight: bolder;
+  text-align: left;
+  list-style-type: "- ";
+ }
+ 
+  .detail_address > li {
+  font-size: 18px;
+  text-align: left;
+  list-style-type: disc;
+ }
+
+.detail_email {
+  text-transform: lowercase;
+}
+
+ a:-webkit-any-link {
+  text-decoration: none;
+}
+ 
